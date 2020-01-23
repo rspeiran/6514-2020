@@ -76,7 +76,9 @@ public class OI {
 
 
         // SmartDashboard Buttons
-        SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
+        SmartDashboard.putData("Auto1", new Auto1());
+        SmartDashboard.putData("Auto2", new Auto2());
+        SmartDashboard.putData("Auto3", new Auto3());
         SmartDashboard.putData("DriveWithJoysticks", new DriveWithJoysticks());
         SmartDashboard.putData("Instant Command 1", new InstantCommand1());
         SmartDashboard.putData("HippoExtend", new HippoExtend());
