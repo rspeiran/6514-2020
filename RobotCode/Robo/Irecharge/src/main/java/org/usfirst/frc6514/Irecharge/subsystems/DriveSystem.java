@@ -9,10 +9,10 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.Irecharge.subsystems;
+package org.usfirst.frc6514.irecharge.subsystems;
 
 
-import org.usfirst.frc6514.Irecharge.commands.*;
+import org.usfirst.frc6514.irecharge.commands.*;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.PIDOutput;

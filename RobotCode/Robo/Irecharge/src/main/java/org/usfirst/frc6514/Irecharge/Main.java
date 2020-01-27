@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.Irecharge;
+package org.usfirst.frc6514.irecharge;
 
 import edu.wpi.first.wpilibj.RobotBase;
 

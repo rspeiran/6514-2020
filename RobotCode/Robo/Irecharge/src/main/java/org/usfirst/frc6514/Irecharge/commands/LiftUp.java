@@ -9,9 +9,9 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.Irecharge.commands;
+package org.usfirst.frc6514.irecharge.commands;
 import edu.wpi.first.wpilibj.command.InstantCommand;
-import org.usfirst.frc6514.Irecharge.Robot;
+import org.usfirst.frc6514.irecharge.Robot;
 
 /**
  *

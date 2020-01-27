@@ -9,13 +9,13 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.Irecharge;
+package org.usfirst.frc6514.irecharge;
 
-import org.usfirst.frc6514.Irecharge.commands.*;
+import org.usfirst.frc6514.irecharge.commands.*;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.*;
-import org.usfirst.frc6514.Irecharge.subsystems.*;
+import org.usfirst.frc6514.irecharge.subsystems.*;
 
 
 /**

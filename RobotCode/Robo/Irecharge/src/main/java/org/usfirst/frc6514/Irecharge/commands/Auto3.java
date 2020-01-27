@@ -9,10 +9,10 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.Irecharge.commands;
+package org.usfirst.frc6514.irecharge.commands;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
-import org.usfirst.frc6514.Irecharge.subsystems.*;
+import org.usfirst.frc6514.irecharge.subsystems.*;
 
 /**
  *
