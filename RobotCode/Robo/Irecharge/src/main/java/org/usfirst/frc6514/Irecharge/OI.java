@@ -92,7 +92,7 @@ public class OI {
         btnDriverLift.whenPressed(new InstantCommand1());
         btnDriverRetract = new JoystickButton(joystickDriver, 1);
         btnDriverRetract.whenPressed(new HippoRetract());
-        btnDriverHippoExtend = new JoystickButton(joystickDriver, 1);
+        btnDriverHippoExtend = new JoystickButton(joystickDriver, 3);
         btnDriverHippoExtend.whenPressed(new HippoExtend());
 
 

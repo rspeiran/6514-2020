@@ -38,6 +38,7 @@ public class HippoRetract extends InstantCommand {
     // Called once when this command runs
     @Override
     protected void initialize() {
+        Robot.fuelSystem.HippoRetractMech();
     }
 
 }
