@@ -80,6 +80,7 @@ public class Robot extends TimedRobot {
         Robot.fuelSystem.HippoRetractMech();
         Robot.liftSystem.LiftStop();
         Robot.liftSystem.ElevatorStop();
+        Robot.controlPanelSubsystem.ControlPanelRotationStop();
 
     }
 
