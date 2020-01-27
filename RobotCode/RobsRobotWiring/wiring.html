@@ -1,0 +1,92 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 480px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Sensor</th></tr>
+                                                                        <tr><td>0</td><td>FuelSystem </td><td>ShooterTopEncoder</td><td></td></tr>
+                                                                                              <tr><td>1</td><td>FuelSystem </td><td>ShooterTopEncoder</td><td></td></tr>
+                                                                                              <tr><td>2</td><td>FuelSystem </td><td>ShooterBottomEncoder</td><td></td></tr>
+                                                                                              <tr><td>3</td><td>FuelSystem </td><td>ShooterBottomEncoder</td><td></td></tr>
+                                                                                              <tr><td>4</td><td>DriveSystem </td><td>LeftDriveEncoder</td><td></td></tr>
+                                                                                              <tr><td>5</td><td>DriveSystem </td><td>LeftDriveEncoder</td><td></td></tr>
+                                                                                              <tr><td>6</td><td>DriveSystem </td><td>RightDriveEncoder</td><td></td></tr>
+                                                                                              <tr><td>7</td><td>DriveSystem </td><td>RightDriveEncoder</td><td></td></tr>
+                                                                                              <tr><td>8</td><td>LiftSystem </td><td>ElevatorEncoder</td><td></td></tr>
+                                                                                              <tr><td>9</td><td>LiftSystem </td><td>ElevatorEncoder</td><td></td></tr>
+                                                                                                                                                                                                                                             </table>
+                    <h2>PWMs</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Motor</th>
+            <th>Type</th></tr>
+                                                    <tr><td>0</td><td>FuelSystem </td><td>HippoIntakeMotor</td><td>Spark</td></tr>
+                                                          <tr><td>1</td><td>LiftSystem </td><td>LiftMotors</td><td>Spark</td></tr>
+                                                          <tr><td>2</td><td>FuelSystem </td><td>ShooterTopMotor</td><td>Spark</td></tr>
+                                                          <tr><td>3</td><td>FuelSystem </td><td>ShooterBottomMotor</td><td>Spark</td></tr>
+                                                          <tr><td>4</td><td>DriveSystem </td><td>LeftDriveSpeedController</td><td>VictorSP</td></tr>
+                                                          <tr><td>5</td><td>DriveSystem </td><td>RightDriveSpeedController</td><td>VictorSP</td></tr>
+                                                          <tr><td>6</td><td>ControlPanelSubsystem </td><td>ControlPanelMotor</td><td>Spark</td></tr>
+                                                          <tr><td>7</td><td>LiftSystem </td><td>ElevatorMotors</td><td>Spark</td></tr>
+                                                                                                                                                                                                                                                     </table>
+     
+                <h2>CAN IDs</h2>
+    <table><tr>
+    <th class="pound">ID</th>
+    <th>Subsystem</th>
+    <th>Device</th>
+    <th>Type</th></tr>
+                                              <tr><td>0</td><td>FuelSystem </td><td>PowerDistributionPanel</td><td>PowerDistributionPanel</td></tr>
+                                                                                                                                                                                                                                                                                                                                     </table>
+    
+                    <h2>Relays</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Relay</th></tr>
+                                                                        <tr><td>0</td><td>FuelSystem </td><td>VisionLightSpike</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                                         </table>
+    
+                        
+                    <h2>PCM 0</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Solenoid</th></tr>
+                                                                        <tr><td>0</td><td>FuelSystem </td><td>DoubleSolenoidHippo Forward </td><td></td></tr>
+                                                                                              <tr><td>1</td><td>FuelSystem </td><td>DoubleSolenoidHippo Reverse </td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                             </table>
+                                                                                                                                                                                                                                                    
+                <h2>Compressor</h2>
+    <table><tr>
+    <th class="pound">PCM</th>
+    <th>Subsystem</th>
+    <th>Device</th></tr>
+                                                                  <tr><td>0</td><td>FuelSystem </td><td>Compressor</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                                     </table>
+      </body>
+</html>
