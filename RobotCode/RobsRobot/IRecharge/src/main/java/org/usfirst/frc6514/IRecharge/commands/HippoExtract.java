@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.IRecharge.commands;
+package org.usfirst.frc6514.Irecharge.commands;
 import edu.wpi.first.wpilibj.command.InstantCommand;
 import org.usfirst.frc6514.IRecharge.Robot;
 
@@ -37,6 +37,7 @@ public class HippoExtract extends InstantCommand {
     // Called once when this command runs
     @Override
     protected void initialize() {
+        Robot.fuelSystem.HippoRetractMech();
     }
 
 }

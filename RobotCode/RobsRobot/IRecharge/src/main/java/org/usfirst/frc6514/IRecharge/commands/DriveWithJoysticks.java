@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.IRecharge.commands;
+package org.usfirst.frc6514.Irecharge.commands;
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.command.Command;
 

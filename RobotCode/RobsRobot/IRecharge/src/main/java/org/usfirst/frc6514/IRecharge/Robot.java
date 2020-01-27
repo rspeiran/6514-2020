@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.IRecharge;
+package org.usfirst.frc6514.Irecharge;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
@@ -98,6 +98,8 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void disabledInit(){
+        Robot.fuelSystem.StopShooter();
+        Robot.fuelSystem.HippoRetractMech();
 
     }
 

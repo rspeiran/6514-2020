@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc6514.IRecharge.subsystems;
+package org.usfirst.frc6514.Irecharge.subsystems;
 
 
 import org.usfirst.frc6514.IRecharge.commands.*;
