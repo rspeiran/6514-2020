@@ -71,6 +71,7 @@ public class ControlPanelRotate extends Command {
   // Returns true when the command should end.
   @Override
   public boolean isFinished() {
+    //TODO:  NOTE  The colour that we see is not the colour that the FMS sees!  We will need to allow addtional rotation to the colour based an offset.
     Boolean isDone = false;
     if (Robot.controlPanelSubsystem.StartColourDetectedCount > 6) {
       if (Robot.controlPanelSubsystem.CurrentColour == Robot.controlPanelSubsystem.GetGameData()) {

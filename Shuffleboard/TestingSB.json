@@ -100,7 +100,7 @@
           },
           "6,4": {
             "size": [
-              3,
+              2,
               1
             ],
             "content": {
@@ -109,17 +109,67 @@
               "_title": "FMSInfo/GameSpecificMessage"
             }
           },
-          "9,4": {
+          "0,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto mode",
+              "_title": "Auto mode"
+            }
+          },
+          "4,5": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calculated Colour",
+              "_title": "Calculated Colour"
+            }
+          },
+          "5,5": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/StartColour",
+              "_title": "StartColour"
+            }
+          },
+          "6,5": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Simple Dial",
+              "_source0": "network_table:///SmartDashboard/StartColourDetectedCount",
+              "_title": "StartColourDetectedCount",
+              "Range/Min": 0.0,
+              "Range/Max": 8.0,
+              "Visuals/Show value": true
+            }
+          },
+          "7,5": {
             "size": [
               2,
               1
             ],
             "content": {
-              "_type": "Simple Dial",
-              "_title": "Simple Dial",
-              "Range/Min": 0.0,
-              "Range/Max": 6.0,
-              "Visuals/Show value": true
+              "_type": "Number Bar",
+              "_source0": "network_table:///SmartDashboard/CP Motor",
+              "_title": "CP Motor",
+              "Range/Min": -1.0,
+              "Range/Max": 1.0,
+              "Range/Center": 0.0,
+              "Visuals/Num tick marks": 5,
+              "Visuals/Show text": true
             }
           }
         }
@@ -243,7 +293,7 @@
           "6,0": {
             "size": [
               4,
-              4
+              6
             ],
             "content": {
               "_type": "Subsystem Layout",
@@ -269,6 +319,12 @@
                   "_type": "Speed Controller",
                   "_source0": "network_table:///LiveWindow/Ungrouped/Victor SPX [12]",
                   "_title": "Victor SPX [12]",
+                  "Visuals/Orientation": "HORIZONTAL"
+                },
+                {
+                  "_type": "Speed Controller",
+                  "_source0": "network_table:///LiveWindow/Ungrouped/Spark[6]",
+                  "_title": "Spark[6]",
                   "Visuals/Orientation": "HORIZONTAL"
                 }
               ]

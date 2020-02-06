@@ -78,7 +78,7 @@ public class Robot extends TimedRobot {
     public void disabledInit(){
         Robot.fuelSystem.StopShooter();
         Robot.fuelSystem.HippoRetractMech();
-        Robot.liftSystem.LiftStop();
+        Robot.liftSystem.LiftMotorsStop();
         Robot.liftSystem.ElevatorStop();
         Robot.controlPanelSubsystem.ControlPanelRotationStop();
 
