@@ -85,7 +85,7 @@ public class OI {
         btnShooterCounterClockWiseStop = new JoystickButton(joystickShooter, 5);
         btnShooterCounterClockWiseStop.whenReleased(new ControlPanelStop());
         btnShooterCounterClockWise = new JoystickButton(joystickShooter, 5);
-        btnShooterCounterClockWise.whenPressed(new ControlPanelCounterClockWise());
+        btnShooterCounterClockWise.whenPressed(new ControlPanelRotate());
         btnShooterElevatorDownStop = new JoystickButton(joystickShooter, 1);
         btnShooterElevatorDownStop.whenReleased(new ElevatorStop());
         btnShooterElevatorDown = new JoystickButton(joystickShooter, 1);

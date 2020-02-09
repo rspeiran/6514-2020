@@ -63,9 +63,9 @@ public class FuelSystem extends Subsystem {
     private double HippoIntakeSpeed = .40;
     private double HippoMotorStop =0;
 
-    //0.45 speed
-    private double ShooterTopMotorSpeed  = 0.245;
-    private double ShooterBottomMotorSpped = 0.245;
+    //0.43 speed
+    private double ShooterTopMotorSpeed  = 0.42;
+    private double ShooterBottomMotorSpped = 0.46;
 
 
 
